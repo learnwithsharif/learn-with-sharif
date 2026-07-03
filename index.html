@@ -1,10 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Learn with Sharif</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:#0d6efd;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:38px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+}
+
+nav{
+background:#083d9c;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+.hero{
+padding:50px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:32px;
+color:#0d6efd;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#0d6efd;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+display:inline-block;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h3{
+color:#0d6efd;
+margin-bottom:10px;
+}
+
+footer{
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
 </head>
+
 <body>
-<h1>Welcome to Learn with Sharif</h1>
-<p>Your Educational Website is Coming Soon!</p>
+
+<header>
+<h1>Learn with Sharif</h1>
+<p>Free Educational Website for Students</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">MCQs</a>
+<a href="#">Notes</a>
+<a href="#">Mock Tests</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Welcome to Learn with Sharif</h2>
+<p>Free Notes, MCQs, Mock Tests, Questions & Answers.</p>
+
+<a class="btn" href="#">Start Learning</a>
+</section>
+
+<section class="features">
+
+<div class="card">
+<h3>📘 Notes</h3>
+<p>Easy Notes for Quick Revision.</p>
+</div>
+
+<div class="card">
+<h3>✅ MCQs</h3>
+<p>Practice Thousands of MCQs.</p>
+</div>
+
+<div class="card">
+<h3>📝 Mock Tests</h3>
+<p>Prepare for Exams with Online Tests.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Questions & Answers</h3>
+<p>Important Questions with Solutions.</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Learn with Sharif | All Rights Reserved
+</footer>
+
 </body>
 </html>
